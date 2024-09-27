@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/src/auth/telalogin.dart';
+import 'package:myapp/src2/telalogin2.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -15,9 +16,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.green,
+        primarySwatch: Colors.blue,
       ),
-      home: const TelaLogin(),
+      home: const TelaLogin2(),
 
     );
   }
